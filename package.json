@@ -1,0 +1,16 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "\"this is the cousera course project",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shreya Agnihotri",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
