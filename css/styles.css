@@ -35,3 +35,29 @@ body{
 .navbar-dark{
     background-color: #512DA8;
 }
+.tablebtn{
+    background-color:  	rgba(255, 166, 0, 0.726);
+    size: block;
+    height: 45px;
+    width: 230px;
+    font-size: large;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+
+.tab{
+    background-color:  	rgba(255, 166, 0, 0.726); 
+    
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.tablelab{
+    
+    font-size: 18px;
+}
+.row-me{
+    padding: 0px 10px 10px 10px;
+}
