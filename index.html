@@ -40,9 +40,9 @@
                     <li><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>Menu</a></li>
                     <li><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card"></span>contact</a></li>
                 </ul>
-                <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
-                    <span class="fa fa-sign-in"></span> Login</a>
+                <span class="navbar-text " id="login">
+                    <a >
+                    <span class="fa fa-sign-in" ></span> Login</a>
                 </span>
             </div>
             
@@ -177,7 +177,7 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-12  col-sm-3 align-self-center">
-                    <a class="btn btn-large  tablebtn" data-toggle="modal" data-target="#reserve"><strong>Reserve Table</strong></a>
+                    <a class="btn btn-large   btn-warning" id="tablebtn"><strong>Reserve Table</strong></a>
                 </div> 
             </div>
         </div>
@@ -378,6 +378,16 @@
                     $("#carouselButton").children("span").removeClass('fa-play');
                     $("#carouselButton").children("span").addClass('fa-pause');                    
                 }
+            });
+            $(document).ready(function(){
+                $("#tablebtn").click(function(){
+                $("#reserve").modal();
+                });
+            });
+            $(document).ready(function(){
+                $("#login").click(function(){
+                $("#loginModal").modal();
+                });
             });
 </script>
 
